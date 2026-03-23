@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "API automation tests for Restful-Booker using Newman",
   "scripts": {
-    "test": "newman run collections/restful-booker.postman_collection.json --environment collections/booker-local.postman_environment.json --delay-request 500",
-    "test:local": "newman run collections/restful-booker.postman_collection.json --environment collections/booker-local.postman_environment.json --delay-request 200",
-    "test:report": "newman run collections/restful-booker.postman_collection.json --environment collections/booker-local.postman_environment.json --reporters cli,htmlextra --reporter-htmlextra-export reports/report.html --delay-request 500",
-    "test:local:report": "newman run collections/restful-booker.postman_collection.json --environment collections/booker-local.postman_environment.json --reporters cli,htmlextra --reporter-htmlextra-export reports/report.html --delay-request 200"
+    "test": "newman run collections/restful-booker.postman_collection.json --environment environments/booker-local.postman_environment.json --delay-request 500",
+    "test:local": "newman run collections/restful-booker.postman_collection.json --environment environments/booker-local.postman_environment.json --delay-request 200",
+    "test:report": "newman run collections/restful-booker.postman_collection.json --environment environments/booker-local.postman_environment.json --reporters cli,htmlextra --reporter-htmlextra-export reports/report.html --delay-request 500",
+    "test:local:report": "newman run collections/restful-booker.postman_collection.json --environment environments/booker-local.postman_environment.json --reporters cli,htmlextra --reporter-htmlextra-export reports/report.html --delay-request 200"
   },
   "main": "index.js",
   "dependencies": {
