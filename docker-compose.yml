@@ -1,0 +1,7 @@
+services:
+  booker:
+    image: mwinteringham/restfulbooker
+    container_name: restful_booker
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
