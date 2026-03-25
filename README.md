@@ -11,6 +11,7 @@ API automation testing project for **Restful Booker** using **Postman**, **Newma
 - Added response checks for status code and booking data structure
 - Generated HTML test reports with Newman
 - Integrated automated execution into GitHub Actions CI
+- Added 30+ assertions to validate status codes, response time, headers, required fields, data types, and booking payload consistency
 
 ## Coverage
 
@@ -27,6 +28,13 @@ API automation testing project for **Restful Booker** using **Postman**, **Newma
 - Created reusable HTML execution reports as test evidence
 - Enabled CI test runs on push, pull request, and manual trigger
 - Supported local execution with Docker and Newman
+
+## Test Metrics
+
+- Total API requests: 6
+- Total test scripts: 6
+- Total assertions: 30+
+- Workflow covered: Auth → Create Booking → Get All → Get By ID → Update → Delete
 
 ## Test Report
 
