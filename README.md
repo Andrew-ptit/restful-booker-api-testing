@@ -38,7 +38,7 @@ API automation testing project for **Restful Booker** using **Postman**, **Newma
 
 ## Test Report
 
-![Test Report](docs/report.png)
+![Test Report](docs\report.png)
 
 ## Tech Stack
 
